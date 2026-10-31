@@ -1,9 +1,49 @@
 body{
     display:flex;
     flex-direction: column;
+    font-family: ;
 }
+
 .footer{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer,.header{
+    background-color: #1F2937;
+}
+
+.header-logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.main-text{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+}
+
+.image-heading{
+    font-size:36px;
+    color:#1F2937;
+    font-weight:900;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
